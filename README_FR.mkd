@@ -1,6 +1,6 @@
 Bonjour et bienvenue dans l'équipe Gilded Rose.
 
-Comme vous le savez, vous vous trouvez dand notre petite auberge au coeur
+Comme vous le savez, vous vous trouvez dans notre petite auberge au coeur
 d'une grande ville, tenue par notre charmante aubergiste Allison.
 Nous achetons et vendons uniquement les meilleurs produits.
 Seulement, la qualité de nos produits baisse constamment au fur et à mesure
@@ -8,8 +8,8 @@ qu'ils approchent de leur date de péremption.
 
 Nous avons mis en place un système qui met à jour notre inventaire automatiquement.
 Il a été développé par Leeroy, qui est parti pour d'autres aventures.
-Votre travail, si vous l'acceptez, est d'ajouter une nouvelle fonctionnalité
-à notre système afin que nous puissions vendre une nouvelle catégorie d'article.
+Votre mission, si vous l'acceptez, est d'y ajouter une nouvelle fonctionnalité
+afin que nous puissions vendre une nouvelle catégorie d'article.
 
 Tout d'abord une introduction à notre système:
 
@@ -26,21 +26,21 @@ Rien de compliqué, pas vrai? Bien maintenant la partie la plus intéressante:
 
   - La qualité d'un article ne peut jamais être négative
 
-  - "le vieu brie" devient de meilleure qualité avec le temps
+  - "Aged Brie" devient de meilleure qualité avec le temps
 
   - La qualité d'un article ne dépasse jamais 50
 
   - "Sulfuras", un article légendaire, ne peut pas être vendu et sa qualité diminuée
 
-  - "Passes Backstage", comme le "vieu brie", voient leur qualité accroitre lorsque
+  - "Backstage passes", comme "Aged Brie", voient leur qualité accroitre lorsque
     leur date de vente limite approche; La qualité augmente de 2 lorsuq'il reste
     moins de 10 jours et de 3 lorqu'il reste moins de 5 jours mais elle chute à 0 après
     le concert
 
 Nous avons depuis peu un fournisseur d'objets ensorcellés qui nous contraint
-de mettre à jour notre système:
+à faire évoluer notre système:
 
-  - la qualité des "objets ensorcellés" diminue 2 fois plus vite que celle des
+  - la qualité des articles "Conjured" diminue 2 fois plus vite que celle des
     articles normaux
 
 Vous pouvez modifier à votre guise la méthode UpdateQuality et ajouter tous
